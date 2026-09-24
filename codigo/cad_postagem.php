@@ -3,13 +3,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/formProdutos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
 </head>
 <body>
     <div>
-        <form action="salvarPostagem.php" method="POST">
+        <form action="salvar_postagem.php" method="POST">
             <p>Texto</p><input  type="text" name="texto">
             <p>Usuário que postou</p>
             <select name="idusuario">
